@@ -22,13 +22,30 @@ color: var(--slate);
 background-color: var(--white);
 }
 
-/*reset*/
+/*reset start*/ /* вместо .list - .ul*/
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 .link {
     text-decoration: none;
     }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+.img {
+    display: block;
+}
+
+/*reset end*/
+
+.container {
+    width: 1158 px;
+}
 
 /*logo*/
 .header-logo, .footer-logo {
@@ -160,4 +177,7 @@ color: var(--ocean);
 .page-footer {
     color: var(--cloud);
     background-color: var(--navy-blue);
+}
+.footer-text {
+    color: var(--cloud);
 }
