@@ -89,10 +89,22 @@ button {
     display: flex;
     align-items: center;
 }
+
 /*logo*/
 
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
 
-.header-logo, .footer-logo {
+    margin-right: 76px;
+}
+
+/*.header-logo, .footer-logo {
     font-family: "Raleway", sans-serif;
     color: var(--iris);
     font-weight: 800;
@@ -100,29 +112,31 @@ button {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+}*/
 
 .header-logo {
-    margin-right: 76px;
+    color: var(--navy-blue);
 
 }
+
 /*header list*/
 .header-list {
     display: flex;
     align-items: center;
     gap: 40px;
 
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 /*header link*/
 
-.header-item {
+.header-link {
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
+    display: block;
+    padding: 24px 0;
 
 }
 .header-link:hover, 
@@ -268,7 +282,6 @@ color: var(--ocean);
 .team-list {
     background-color: var(--cloud);
     display: flex;
-    /*flex-basis: calc((100% - 3 * 24px) / 4);*/
     gap: 24px;
    
 }
@@ -336,6 +349,8 @@ color: var(--ocean);
     padding-bottom: 100px;
 }
 .footer-logo {
+    color: var(--cloud);
+
     display: inline-block;
     margin-bottom: 16px;
 }
